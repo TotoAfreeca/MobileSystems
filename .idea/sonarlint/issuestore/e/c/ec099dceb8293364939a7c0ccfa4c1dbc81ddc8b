@@ -1,0 +1,14 @@
+
+P
+java:S1199§"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8´ÌÏ°İ.
+{
+java:S1450"YRemove the "nextButton" field and declare it as a local variable in the relevant methods.(º€ü‰ùÿÿÿÿ8Š¼šĞ.
+U
+java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ8¬ø£ıÙ.
+w
+java:S1450"ZRemove the "falseButton" field and declare it as a local variable in the relevant methods.(Ôœ8Š¼šĞ.
+{
+java:S1450"YRemove the "trueButton" field and declare it as a local variable in the relevant methods.(Ãş×Äüÿÿÿÿ8ÅÕºšĞ.
+}
+java:S1450"[Remove the "promptButton" field and declare it as a local variable in the relevant methods.(Â€ªƒÿÿÿÿÿ8Ì ÷Ú.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8–ïâ™Ğ.
