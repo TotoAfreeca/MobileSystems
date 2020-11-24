@@ -1,0 +1,56 @@
+PIERWSZE URUCOMIENIE
+
+2020-11-17 12:05:45.890 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onCreate
+2020-11-17 12:05:46.040 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStart
+2020-11-17 12:05:46.043 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onResume
+
+PO WCIŚNIĘCIU COFNIJ
+
+2020-11-17 12:09:12.501 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onPause
+2020-11-17 12:09:13.487 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStop
+2020-11-17 12:09:13.492 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onDestroy
+
+PO PONOWNYM URUCHOMIENIU
+
+2020-11-17 12:09:52.700 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onCreate
+2020-11-17 12:09:52.770 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStart
+2020-11-17 12:09:52.771 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onResume
+
+PO WCIŚNIĘCIU HOME
+
+2020-11-17 12:10:15.894 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onPause
+2020-11-17 12:10:16.697 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStop
+
+Po powrocie z listy ostatnio używanych aplikacji
+
+2020-11-17 12:11:13.930 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStart
+2020-11-17 12:11:13.931 10605-10605/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onResume
+
+Po obróceniu ekranu (bez implementacji onSaveInstanceState) - aplikacji w zasadzie "wyłącza się i startuje od nowa" - nie zapamiętuje stanu, wraca pierwsze pytanie
+
+2020-11-17 12:15:17.562 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onPause
+2020-11-17 12:15:17.577 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStop
+2020-11-17 12:15:17.578 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onDestroy
+2020-11-17 12:15:17.660 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onCreate
+2020-11-17 12:15:17.732 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStart
+2020-11-17 12:15:17.735 11304-11304/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onResume
+
+Po obróceniu ekranu (z implementacją onSaveInstanceState) - zapisujemy stan aplikacji (aktualne pytanie) i przywracamy je podczas onCreate
+
+2020-11-17 12:17:29.467 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onPause
+2020-11-17 12:17:29.472 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStop
+2020-11-17 12:17:29.473 11594-11594/com.example.quiz D/MainActivity: Wywołano metodę: onSaveInstanceState
+2020-11-17 12:17:29.473 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onDestroy
+2020-11-17 12:17:29.544 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onCreate
+2020-11-17 12:17:29.578 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onStart
+2020-11-17 12:17:29.578 11594-11594/com.example.quiz D/MainActivity: Wywołano metode cyklu życia: onResume
+
+
+
+
+
+
+
+
+
+
